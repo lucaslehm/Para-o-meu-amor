@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C0530;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.4em;
+    width: 350px;
+}
+
+.foto-nossa {
+    background-color: aqua;
+    background-image: url(fotonossa.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+}
+
+.titulo {
+    font-family: "Meow Script", cursive;
+    color: #ff00ea;
+    font-size: 3.5em;
+    font-weight: 900;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.texto {
+    color: white;
+    font-family: "Domine", serif;
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 17px;
+}
+
+.divisor-horizontal {
+    background-color: #ff00ea;
+    width: 200px;
+    height: 1px;
+    margin: 1em 0px;
+}
+
+.titulo2 {
+    font-family: "Meow Script", cursive;
+    color: white;
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.tempo-juntos-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 20px;
+}
+
+.tempo-card {
+    width: 260px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px #ff00ea9a;
+}
+
+.tempo-card p {
+    color: white;
+    font-family: "Domine", serif;
+    font-weight: 700;
+}
+
+.tipo-de-tempo {
+    font-size: 0.8em;
+}
+
+
+.audio-container {
+    text-align: center;
+}
+
+.musica {
+    background-color: #090324;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Domine", serif;
+    color: white;
+}
+
+.descrição-musica {
+    font-size: 0.7em;
+    color: rgba(255, 255, 255, 0.493);
+}
+
+.imagem-e-titulo-musica {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagem-musica {
+    background-color: antiquewhite;
+    background-image: url(foto-ana-e-gustavo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.botao-play i {
+    font-size: 2em;
+}
